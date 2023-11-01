@@ -136,3 +136,20 @@
     background-image: url(./assets/photo.jpg);
 }
 
+/* Add this at the end of your existing CSS */
+
+@media screen and (max-width: 768px) {
+    .made-by {
+        display: none; /* Hide the "Made by Keshav Bhardwaj" section on mobile */
+    }
+
+    .theme-toggle {
+        position: absolute;
+        bottom: 1rem;
+        height: 35px;
+        top: 3px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
